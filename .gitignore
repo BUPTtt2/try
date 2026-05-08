@@ -1,0 +1,86 @@
+# ====================
+# Gradle
+# ====================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ====================
+# Android Studio / IDEA
+# ====================
+*.iml
+.idea/
+!.idea/copyright/
+!.idea/inspectionProfiles/
+!.idea/jarRepositories.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/.name
+!.idea/compiler.xml
+!.idea/deploymentTargetSelector.xml
+!.idea/deviceManager.xml
+!.idea/runConfigurations.xml
+!.idea/appInsights.xml
+!.idea/androidPostFiles.xml
+!.idea/navEditor.xml
+!.idea/assetWizardSettings.xml
+!.idea/inspectionProfiles/Profiles_settings.xml
+local.properties
+
+# ====================
+# Kotlin
+# ====================
+.kotlin/
+
+# ====================
+# Android
+# ====================
+captures/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jar
+*.log
+
+# ====================
+# Sensitive Files - DO NOT COMMIT
+# ====================
+# API keys and secrets (use gradle.properties with placeholders instead)
+# Uncomment the following if you want to ignore your local config:
+# gradle.properties
+local.properties
+
+# ====================
+# OS Files
+# ====================
+.DS_Store
+Thumbs.db
+
+# ====================
+# Proguard
+# ====================
+proguard-rules.pro
+
+# ====================
+# Build outputs
+# ====================
+out/
+gen/
+bin/
+tmp/
+*.bak
+
+# ====================
+# Crashlytics
+# ====================
+fabric.properties
+google-services.json
+
+# ====================
+# Local files (not for Git)
+# ====================
+.vscode/
+local/
